@@ -1,0 +1,73 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Forms</title>
+<link rel="stylesheet" href="navigation.css">
+
+<style>
+.Login{
+
+background-color: powderblue;
+
+
+}
+
+
+</style>
+
+</head>
+<body class="Login">
+  <h1> Login/Register</h1>
+
+<form action="C:\Users\rathi\OneDrive\Mihika's work\game\main\main.html">
+    <label for="username" >User Name:</label>
+<input  type="text" required>
+
+
+
+<br>
+<br>
+
+    <label for="email" >Email:</label>
+<input type="email" required>
+
+<br>
+<br>
+    <label for="phonenumber">phone number:</label>
+<input type="tel" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" required><small>format= 1234567890</small>
+
+
+<br>
+<br>
+
+
+Password: <input type="password"  id="myInput">
+
+<input type="checkbox" onclick="myFunction()">Show Password
+
+
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myInput");
+  if (x.type === "password") {
+    x.type = "text";
+  } else {
+    x.type = "password";
+  }
+}
+
+</script>
+
+<br><br>
+<input type="submit" value="Login/Register" >
+  
+</form>
+
+
+
+
+
+</body>
+</html>
